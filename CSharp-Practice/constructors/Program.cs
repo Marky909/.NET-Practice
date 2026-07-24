@@ -24,12 +24,12 @@ Console.WriteLine("===Destructors===");
 Bankaccc acc3 = new Bankaccc();
 
 
-//Console.WriteLine("===fields and properties===");
-//cms std = new cms();
-//std.Name = "Marky";
-//std.Age = -20;
-//Console.WriteLine($"student name is {std.Name} and age is {std.Age}");
+Console.WriteLine("===fields and properties1===");
+cms std = new cms();
+std.Name = "Marky";
+std.Age = -20;
+Console.WriteLine($"student name is {std.Name} and age is {std.Age}");
 
-Console.WriteLine("===fields and properties===");
+Console.WriteLine("===fields and properties2===");
 BankAtmSystem khata = new BankAtmSystem("5055050250505","Marky",-5000000);
 khata.ShowBalance();

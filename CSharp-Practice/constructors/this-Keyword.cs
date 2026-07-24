@@ -2,9 +2,9 @@
 using System.Collections.Generic;
 using System.Text;
 
-namespace _04_OOP
+namespace constructors
 {
-    internal class Class1
+    internal class this_Keyword
     {
     }
 }

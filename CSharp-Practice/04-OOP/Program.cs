@@ -1,4 +1,5 @@
 ﻿using System;
+using static _04_OOP.Program;
 
 Console.WriteLine("===== Bank Account Example =====");
 
@@ -26,3 +27,9 @@ manager.ShowDepartment();
 
 // manager.salary = 50000;      // Error
 // manager.department = "HR";   // Error
+
+
+Console.WriteLine();
+Console.WriteLine("===== Access Modifier Demo =====");
+
+AccessModifierDemo.Run();

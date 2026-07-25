@@ -37,8 +37,7 @@ public class BankAtmSystem
             }
         }
     }
-    public BankAtmSystem(string AccountNumber, string OwnerName,
-    double InitialBalance)
+    public BankAtmSystem(string AccountNumber, string OwnerName,double InitialBalance)
     {
         this.AccountNumber = AccountNumber;
         this.OwnerName = OwnerName;

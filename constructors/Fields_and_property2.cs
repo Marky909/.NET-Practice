@@ -1,4 +1,4 @@
-﻿//Example 2 (Professional) – Bank ATM System 🏦
+﻿//Example 2 (Professional) – Bank ATM System 
 //This is much closer to how software is written.
 //Scenario
 //You are developing software for an ATM.
@@ -37,7 +37,7 @@ public class BankAtmSystem
             }
         }
     }
-    public BankAtmSystem(string? AccountNumber, string? OwnerName,
+    public BankAtmSystem(string AccountNumber, string OwnerName,
     double InitialBalance)
     {
         this.AccountNumber = AccountNumber;

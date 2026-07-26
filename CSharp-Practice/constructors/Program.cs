@@ -33,3 +33,16 @@ Console.WriteLine($"student name is {std.Name} and age is {std.Age}");
 Console.WriteLine("===fields and properties2===");
 BankAtmSystem khata = new BankAtmSystem("5055050250505","Marky",-5000000);
 khata.ShowBalance();
+
+Console.WriteLine("=== Library Indexer Demo ===");
+
+Library library = new Library();
+
+library[0] = "Clean Code";
+library[1] = "The Pragmatic Messi";
+library[2] = "C# in Depth";
+
+Console.WriteLine(library[0]);
+Console.WriteLine(library[1]);
+Console.WriteLine(library[2]);
+

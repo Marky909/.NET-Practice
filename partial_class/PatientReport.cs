@@ -1,4 +1,4 @@
-﻿using partial_class;
+﻿
 
 namespace partial_class;
 
@@ -21,7 +21,7 @@ public partial class Patient
         Console.WriteLine();
 
         Console.WriteLine($"Insurance Company : {InsuranceCompany}");
-        Console.WriteLine($"Bill Amount       : ${BillAmount}");
+        Console.WriteLine($"Bill Amount       : {BillAmount}");
 
         Console.WriteLine("==================================");
     }

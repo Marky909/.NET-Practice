@@ -24,6 +24,6 @@ int mod = num2 % num1;
 int increased_num1 = num1++;
 int decreased_num2 = num2--;
 
-Console.WriteLine()
+Console.WriteLine();
 
 

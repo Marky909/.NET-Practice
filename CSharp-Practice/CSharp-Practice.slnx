@@ -6,4 +6,5 @@
   <Project Path="constructors/constructors.csproj" Id="fe98619d-04df-4668-a789-4435622392e2" />
   <Project Path="PartialClass_Real_world_practice_qsn/PartialClass_Real_world_practice_qsn.csproj" Id="15c276e4-ac4a-4701-8969-18c465d7e11b" />
   <Project Path="partial_class/partial_class.csproj" Id="b78ca7d0-9728-4830-a346-99f06c27a9fb" />
+  <Project Path="static_class/static_class.csproj" Id="5186ee70-2a73-444d-9db1-41b2f86c55d3" />
 </Solution>

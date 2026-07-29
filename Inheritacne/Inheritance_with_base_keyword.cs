@@ -1,23 +1,35 @@
-﻿using System;
+﻿//base keyword to call a parent (base) constructor
+
+using System;
 using System.Collections.Generic;
 using System.Text;
 
 namespace Inheritacne
 {
-  public class Animal
+ public class Employeee
     {
+        public string Name;
 
-        public string color = "Blue";
-        //public Animal()
-    }
-  public class Dog:Animal
-    {
-        public string  color = "green";
-
-        public void ShowColor()
+        public Employeee(string name)
         {
-            Console.WriteLine($"The color of dog is {color}");
-            Console.WriteLine($"The color of dog is {base.color}");
+            Name = name;
+            Console.WriteLine("This is base class constructor");
+        }
+    }
+    public class SoftwareEngineerr:Employeee
+    {
+        public string Language;
+
+        public SoftwareEngineerr(string name , string language):base(name)
+        {
+            Language = language;
+            Console.WriteLine("This is derived class constructor");
+        }
+
+        public void DisplayInfo()
+        {
+            Console.WriteLine($"Name of the employee is : {Name}");
+            Console.WriteLine($"language  used by employee is : {Language}");
 
         }
     }

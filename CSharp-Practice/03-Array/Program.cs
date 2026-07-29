@@ -1,39 +1,71 @@
-﻿//Hands on Array
+﻿
+////1D array
+//using System;
+//Console.Write("Enter the size of array: ");
+//int n = Convert.ToInt32(Console.ReadLine());
+//int[] numbers = new int[n];
+//int SumResult = 0;
 
-using System.Diagnostics.CodeAnalysis;
+//for (int i = 0; i< n;i++)
+//{
+//    Console.Write($"Enter the element for array {i}: ");
+//    numbers[i] = Convert.ToInt32(Console.ReadLine());
 
-var numbers = new[] { 10, 20, 40, 50, 30 };
-Console.WriteLine(Array.IndexOf(numbers, 50));
 
-bool found = Array.Exists(numbers, x => x == 20+2);
-Console.WriteLine(found);
+//    SumResult += numbers[i]; 
 
-//multidimensional array
-var number1 = new[,]
-{
-    {10,20,30 },
-    {40,50,60 },
-    {70,80,90 }
-};
+//}
 
-Console.WriteLine(number1.Rank);
+//Console.WriteLine($"The sum of the elements of the array is : {SumResult}");
 
-int[,] matrix = { 
-    { 10,20,30},
-    { 40,50,60}
-    };
-//Console.WriteLine(matrix[2, 2]);
+////Rectangular matrix
+//using System;
 
-for(int i = 0; i < matrix.GetLength(0); i++)
-{
-    for(int j= 0;j<matrix.GetLength(1); j++)
-    {
-        Console.WriteLine(matrix[i, j]+ " ");
-    }
-}
-Console.WriteLine("so this below is printed using foreach looping statement");
+//class Program
+//{
+//    static void Main()
+//    {
+//        int[,] marks =
+//        {
+//            {80,85,90},
+//            {70,75,88},
+//            {95,99,92}
+//        };
 
-foreach(int m in matrix)
-{
-    Console.WriteLine(m + " ");
-}
+//        for (int row = 0; row < 3; row++)
+//        {
+//            for (int col = 0; col < 3; col++)
+//            {
+//                Console.Write(marks[row, col] + " ");
+//            }
+
+//            Console.WriteLine();
+//        }
+//    }
+//}
+
+////jagged array
+//using System;
+
+//class Program
+//{
+//    static void Main()
+//    {
+//        int[][] scores =
+//        {
+//            new int[] {80,85},
+//            new int[] {70,75,88},
+//            new int[] {95}
+//        };
+
+//        for (int i = 0; i < scores.Length; i++)
+//        {
+//            for (int j = 0; j < scores[i].Length; j++)
+//            {
+//                Console.Write(scores[i][j] + " ");
+//            }
+
+//            Console.WriteLine();
+//        }
+//    }
+//}

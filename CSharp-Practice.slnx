@@ -11,6 +11,7 @@
   <Project Path="constructors/constructors.csproj" Id="fe98619d-04df-4668-a789-4435622392e2" />
   <Project Path="DelegateSinglecast/Delegate.csproj" Id="ad153489-3a4b-4c75-9d13-66fd155b9c0b" />
   <Project Path="EnumDemo/EnumDemo.csproj" Id="8d549b52-de72-4cd8-bbd3-c4e16f89bdee" />
+  <Project Path="Events_Continuation_of_Delegates/Events_Continuation_of_Delegates.csproj" Id="dea008f3-3321-47ed-8068-b8bb4e466f34" />
   <Project Path="ExceptionHandling2/ExceptionHandling2.csproj" Id="8c20c648-8057-41c4-8a22-f387d173bdd9" />
   <Project Path="FileOperatins/FileOperatins.csproj" Id="ca7e2249-944e-40c5-9960-8f05658b6a32" />
   <Project Path="GenericCollection/GenericCollection.csproj" Id="8a43d7e9-f210-4bdb-80d5-54e7fbce2de9" />

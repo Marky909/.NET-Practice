@@ -4,11 +4,18 @@ using System.Text;
 
 namespace CalculatorUsingInterface
 {
-    internal class Divide:IOperation
-    {
-        public double Calculate(double a,double b)
+    
+        public class Divide : IOperation
         {
-            return a / b;
+            public double Calculate(double a, double b)
+            {
+                if (b == 0)
+                {
+                return double.NaN;
+            }
+                return a / b;
+            }
         }
+
     }
-}
+

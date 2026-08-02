@@ -1,5 +1,5 @@
 <Solution>
-  <Project Path="../MyFirstFormsAPP/MyFirstFormsAPP/MyFirstFormsAPP.csproj" />
+  <Project Path="../MyFirstFormsAPP/MyFirstFormsAPP/CalculatorUsingWinForm.csproj" />
   <Project Path="02-ControlStatements/02-ControlStatements.csproj" />
   <Project Path="03-Array/03-Array.csproj" Id="7bccae56-ef25-42c1-a12b-318716ca55ef" />
   <Project Path="04-OOP/04-OOP introduction.csproj" Id="a59a0607-1bc5-4c1f-a43c-4caead8a4b59" />

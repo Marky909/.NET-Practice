@@ -5,7 +5,7 @@ namespace Api_practice.Models
 {
     [Route("api/[controller]")]
     [ApiController]
-    public class Category : ControllerBase
+    public class Category
     {
         public int Id { get; set; }
         public string BrandName { get; set; } = "";

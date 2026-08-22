@@ -1,6 +1,43 @@
-@Api_practice_HostAddress = http://localhost:5261
+# Define your local server development port here
+@rootURL = http://localhost:5000
 
-GET {{Api_practice_HostAddress}}/weatherforecast/
+# 1. Test GET request to retrieve all books [8]
+GET {{rootURL}}/api/books
 Accept: application/json
 
 ###
+
+# 2. Test GET request to retrieve Book #2 [10]
+GET {{rootURL}}/api/books/2
+Accept: application/json
+
+###
+
+# 3. Test POST request to add a new book [12, 19]
+POST {{rootURL}}/api/books
+Content-Type: application/json
+
+{
+  "id": 6,
+  "title": "C# Unlocked",
+  "author": "Alan Omary",
+  "yearPublished": 2023
+}
+
+###
+
+# 4. Test PUT request to update Book #5 [16]
+PUT {{rootURL}}/api/books/5
+Content-Type: application/json
+
+{
+  "id": 5,
+  "title": "Moby Dick",
+  "author": "Alan Omary",
+  "yearPublished": 1851
+}
+
+###
+
+# 5. Test DELETE request to remove Book #4 [20]
+DELETE {{rootURL}}/api/books/4
